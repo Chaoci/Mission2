@@ -1,0 +1,25 @@
+//reset css
+@import "reset";
+//box-sizing
+@import "box";
+//html,body
+@import "base";
+
+.wrap{
+    max-width: 1366px;
+    .header{
+        max-width: 1085px;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            img{
+                max-width: 218px;
+            }
+        .btn_project_rate{
+            border-radius: 10%;
+            background:#FF5D50;
+        }
+        }
+    }
+}
+
