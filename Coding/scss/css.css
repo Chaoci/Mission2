@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,6 +56,7 @@ table {
 html, body {
   height: 100%;
   margin: 0 auto;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 a {
@@ -64,11 +66,13 @@ a {
 
 * {
   outline: auto;
+  font-family: "Noto Sans TC";
 }
 
 .wrap {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg") top right no-repeat;
   max-width: 1366px;
+  margin: 0 auto;
 }
 .wrap .container_top {
   margin: 0 auto;
@@ -109,16 +113,37 @@ a {
   height: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .wrap .container_top .part1_banner .content_title {
   width: 50%;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
 }
 .wrap .container_top .part1_banner .content_title h3 {
   text-align: left;
-  font: normal normal bold 18px/26px Noto Sans TC;
+  font-size: 18px;
+  font-weight: bold;
   letter-spacing: 0px;
   color: #56C4C5;
   opacity: 1;
+}
+.wrap .container_top .part1_banner .content_title h1 {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #221E1F;
+  opacity: 1;
+  line-height: 1.5;
+}
+.wrap .container_top .part1_banner .content_title p {
+  text-align: left;
+  font-size: 20px;
+  color: #221E1F;
 }
 .wrap .container_top .part1_banner img {
   min-width: 532px;

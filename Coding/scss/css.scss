@@ -6,6 +6,7 @@
 @import "base";
 *{
     outline:auto;
+    font-family: "Noto Sans TC";
 }
 // .body{
 //     position: relative;
@@ -14,8 +15,7 @@
 .wrap{
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg")top right no-repeat;
     max-width: 1366px;
-    // display: flex;
-    // justify-content: center;
+    margin: 0 auto;
     .container_top{
         margin: 0 auto;
         max-width: 1085px;
@@ -56,14 +56,35 @@
             height: auto;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .content_title{
                 width: 50%;
+                height: 219px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-between;
                 h3{
                     text-align: left;
-                    font: normal normal bold 18px/26px Noto Sans TC;
+                    font-size: 18px;
+                    font-weight: bold;
                     letter-spacing: 0px;
                     color: #56C4C5;
                     opacity: 1;
+                }
+                h1{
+                    text-align: left;
+                    font-size: 48px;
+                    font-weight: bold;
+                    letter-spacing: 0px;
+                    color: #221E1F;
+                    opacity: 1;
+                    line-height: 1.5;
+                }
+                p{
+                    text-align: left;
+                    font-size: 20px;
+                    color: #221E1F;
                 }
             }
             img{
