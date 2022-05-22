@@ -65,6 +65,8 @@ a {
 
 .wrap {
   max-width: 1366px;
+  display: flex;
+  justify-content: center;
 }
 .wrap .header {
   max-width: 1085px;
@@ -75,6 +77,16 @@ a {
   max-width: 218px;
 }
 .wrap .header .logo .btn_project_rate {
-  border-radius: 10%;
+  display: flex;
+  display: block;
+  align-items: center;
+}
+.wrap .header .logo .btn_project_rate .btn {
+  max-width: 128px;
+  height: 40px;
   background: #FF5D50;
+  border-radius: 20%;
+}
+.wrap .header .logo .btn_project_rate a {
+  font-size: 16px;
 }/*# sourceMappingURL=css.css.map */
