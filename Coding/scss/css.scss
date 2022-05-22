@@ -4,33 +4,42 @@
 @import "box";
 //html,body
 @import "base";
+*{
+    outline:auto;
+}
 
 .wrap{
-    max-width: 1366px;
-    display: flex;
-    justify-content: center;
+    max-width: 1085px;
+    margin: 0 auto;
+    // display: flex;
+    // justify-content: center;
     .header{
-        max-width: 1085px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         .logo{
             img{
                 max-width: 218px;
             }
+        }
         .btn_project_rate{
             display: flex;
             display: block;
             align-items: center;
-            .btn{
+            ul{ 
                 max-width: 128px;
                 height: 40px;
                 background:#FF5D50;
-                border-radius: 20%;
+                border-radius: 22px;
+                display: flex;
+                align-items: center;
+                li{
+                    margin: 8px 32px;
+                }
+                a{
+                    height: 100%;
+                    font-size: 16px;
+                }
             }
-            a{
-                font-size: 16px;
-            }
-        }
         }
     }
 }

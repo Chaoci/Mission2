@@ -50,12 +50,12 @@ table {
 
 *, *:after, *:before {
   box-sizing: border-box;
-  outline: auto;
 }
 
 html, body {
   height: 100%;
   margin: 0 auto;
+  max-width: 1366px;
 }
 
 a {
@@ -63,30 +63,38 @@ a {
   color: black;
 }
 
+* {
+  outline: auto;
+}
+
 .wrap {
-  max-width: 1366px;
-  display: flex;
-  justify-content: center;
+  max-width: 1085px;
+  margin: 0 auto;
 }
 .wrap .header {
-  max-width: 1085px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .wrap .header .logo img {
   max-width: 218px;
 }
-.wrap .header .logo .btn_project_rate {
+.wrap .header .btn_project_rate {
   display: flex;
   display: block;
   align-items: center;
 }
-.wrap .header .logo .btn_project_rate .btn {
+.wrap .header .btn_project_rate ul {
   max-width: 128px;
   height: 40px;
   background: #FF5D50;
-  border-radius: 20%;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
 }
-.wrap .header .logo .btn_project_rate a {
+.wrap .header .btn_project_rate ul li {
+  margin: 8px 32px;
+}
+.wrap .header .btn_project_rate ul a {
+  height: 100%;
   font-size: 16px;
 }/*# sourceMappingURL=css.css.map */
