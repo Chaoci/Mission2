@@ -55,7 +55,6 @@ table {
 html, body {
   height: 100%;
   margin: 0 auto;
-  max-width: 1366px;
 }
 
 a {
@@ -68,22 +67,27 @@ a {
 }
 
 .wrap {
-  max-width: 1085px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg") top right no-repeat;
+  max-width: 1366px;
+}
+.wrap .container_top {
   margin: 0 auto;
+  max-width: 1085px;
 }
-.wrap .header {
+.wrap .container_top .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
-.wrap .header .logo img {
+.wrap .container_top .header .logo img {
   max-width: 218px;
 }
-.wrap .header .btn_project_rate {
+.wrap .container_top .header .btn_project_rate {
   display: flex;
   display: block;
   align-items: center;
 }
-.wrap .header .btn_project_rate ul {
+.wrap .container_top .header .btn_project_rate ul {
   max-width: 128px;
   height: 40px;
   background: #FF5D50;
@@ -91,10 +95,32 @@ a {
   display: flex;
   align-items: center;
 }
-.wrap .header .btn_project_rate ul li {
+.wrap .container_top .header .btn_project_rate ul li {
   margin: 8px 32px;
 }
-.wrap .header .btn_project_rate ul a {
+.wrap .container_top .header .btn_project_rate ul a {
   height: 100%;
   font-size: 16px;
+  color: #ffffff;
+}
+.wrap .container_top .part1_banner {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .container_top .part1_banner .content_title {
+  width: 50%;
+}
+.wrap .container_top .part1_banner .content_title h3 {
+  text-align: left;
+  font: normal normal bold 18px/26px Noto Sans TC;
+  letter-spacing: 0px;
+  color: #56C4C5;
+  opacity: 1;
+}
+.wrap .container_top .part1_banner img {
+  min-width: 532px;
+  height: 532px;
 }/*# sourceMappingURL=css.css.map */
