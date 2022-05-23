@@ -70,7 +70,10 @@ a {
 }
 
 .wrap {
-  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg") top right no-repeat;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right;
   max-width: 1366px;
   margin: 0 auto;
 }
