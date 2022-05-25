@@ -57,7 +57,6 @@ html, body {
   height: 100%;
   margin: 0 auto;
   font-family: "Noto Sans TC", sans-serif;
-  width: 1388px;
 }
 
 a {
@@ -74,7 +73,7 @@ a {
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: auto, auto, auto;
   background-position: top right, left -222px top 589px, top 1694px left 1156px;
-  max-width: 100%;
+  max-width: 1440vw;
   margin: 0 auto;
 }
 
