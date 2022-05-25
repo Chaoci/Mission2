@@ -1,0 +1,31 @@
+.third-container{
+    margin: 0 auto;
+    max-width: 1088px;
+    .third-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 48px;
+        h2{
+            height: 46px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #221E1F;
+            margin-bottom: 16px;
+        }
+        p{
+            height: 29px;
+            font-size: 20px;
+            color: #221E1F;
+        }
+    }
+    ul{
+        display: flex;
+        
+        img{
+            min-width: 260px;
+            height: 260px;
+        }
+    }
+}

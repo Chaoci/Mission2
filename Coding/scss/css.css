@@ -64,17 +64,17 @@ a {
   color: black;
 }
 
-* {
+*, *:after, *:before {
   outline: auto;
   font-family: "Noto Sans TC";
 }
 
 .wrap {
-  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, auto;
-  background-position: top right, left -222px top 589px;
-  max-width: 1440px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto;
+  background-position: top right, left -222px top 589px, top 1694px left 1156px;
+  max-width: 1440vw;
   margin: 0 auto;
 }
 .wrap .container_top {
@@ -161,6 +161,7 @@ a {
   margin: 0 auto;
   max-width: 969px;
   height: 315px;
+  margin-bottom: 100px;
 }
 .wrap .second-container .second-title {
   width: 100%;
@@ -216,4 +217,34 @@ a {
 .wrap .second-container .second-three-media img {
   min-width: 90px;
   height: 90px;
+}
+.wrap .third-container {
+  margin: 0 auto;
+  max-width: 1088px;
+}
+.wrap .third-container .third-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.wrap .third-container .third-title h2 {
+  height: 46px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #221E1F;
+  margin-bottom: 16px;
+}
+.wrap .third-container .third-title p {
+  height: 29px;
+  font-size: 20px;
+  color: #221E1F;
+}
+.wrap .third-container ul {
+  display: flex;
+}
+.wrap .third-container ul img {
+  min-width: 260px;
+  height: 260px;
 }/*# sourceMappingURL=css.css.map */
