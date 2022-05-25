@@ -75,6 +75,7 @@ a {
   background-size: auto, auto;
   background-position: top right, left -222px top 589px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .wrap .container_top {
   margin: 0 auto;
