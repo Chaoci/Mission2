@@ -5,14 +5,10 @@
 //html,body
 @import "base";
 
-
 *,*:after,*:before{
-    // outline:auto;
+    //outline:auto;
     font-family: "Noto Sans TC";
 }
-// .body{
-//     position: relative;
-// }
 
 @import "wrap"; //setting background 來這邊
 
@@ -27,4 +23,8 @@
 @import "fourth-part";
 
 @import "fifth-part";
+
+@import "footer1";
+
+@import "footer2";
 
