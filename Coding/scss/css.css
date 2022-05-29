@@ -70,10 +70,10 @@ a {
 }
 
 .wrap {
-  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: auto, auto, auto;
-  background-position: top right, left -222px top 589px, top 1694px left 1156px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball03.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto, auto;
+  background-position: top right, left -222px top 589px, top 1694px left 1156px, top 2640px left 50px;
   max-width: 1440vw;
   margin: 0 auto;
 }
@@ -82,6 +82,7 @@ a {
   margin-bottom: 124px;
   display: flex;
   justify-content: end;
+  cursor: pointer;
 }
 .top-btn img {
   position: fixed;
@@ -285,7 +286,7 @@ a {
   line-height: 1.3;
 }
 
-.fourth-part-container {
+.fourth-container {
   display: flex;
   margin: 0 auto;
   max-width: 1039px;
@@ -293,16 +294,16 @@ a {
   margin-top: 100px;
   justify-content: space-between;
 }
-.fourth-part-container .left-part {
+.fourth-container .left-part {
   width: 50%;
   height: 100%;
 }
-.fourth-part-container .left-part ul {
+.fourth-container .left-part ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.fourth-part-container .left-part ul li {
+.fourth-container .left-part ul li {
   min-width: 230px;
   height: 280px;
   border-radius: 15px;
@@ -313,21 +314,21 @@ a {
   -moz-text-align-last: left;
        text-align-last: left;
 }
-.fourth-part-container .left-part ul li h3 {
+.fourth-container .left-part ul li h3 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: bold;
   color: #221E1F;
 }
-.fourth-part-container .left-part ul li p {
+.fourth-container .left-part ul li p {
   font-size: 16px;
   line-height: 1.5;
 }
-.fourth-part-container .left-part ul .fourth-cards1 {
+.fourth-container .left-part ul .fourth-cards1 {
   margin-bottom: 28px;
 }
-.fourth-part-container .left-part .img-bg {
+.fourth-container .left-part .img-bg {
   width: 86px;
   height: 86px;
   background-color: white;
@@ -337,16 +338,16 @@ a {
   align-items: center;
   justify-content: center;
 }
-.fourth-part-container .left-part .img-bg img {
+.fourth-container .left-part .img-bg img {
   width: 52px;
   height: 52px;
 }
-.fourth-part-container .right-part {
+.fourth-container .right-part {
   display: flex;
   align-items: center;
   justify-content: end;
 }
-.fourth-part-container .right-part .right-part-content h1 {
+.fourth-container .right-part .right-part-content h1 {
   font-size: 32px;
   font-weight: bold;
   color: #221E1F;
@@ -354,16 +355,16 @@ a {
   line-height: 1.5;
   text-align: left;
 }
-.fourth-part-container .right-part .right-part-content p {
+.fourth-container .right-part .right-part-content p {
   text-align: left;
   font-size: 18px;
   margin-bottom: 24px;
   line-height: 1.5;
 }
-.fourth-part-container .right-part .right-part-content .price-btn {
+.fourth-container .right-part .right-part-content .price-btn {
   max-width: 136px;
 }
-.fourth-part-container .right-part .right-part-content .price-btn ul li {
+.fourth-container .right-part .right-part-content .price-btn ul li {
   width: 100%;
   height: 49px;
   display: flex;
@@ -372,7 +373,7 @@ a {
   background: #56C4C5;
   border-radius: 22px;
 }
-.fourth-part-container .right-part .right-part-content .price-btn ul a {
+.fourth-container .right-part .right-part-content .price-btn ul a {
   width: 100%;
   height: 100%;
   font-size: 18px;
@@ -381,4 +382,91 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fifth-container {
+  margin: 0 auto;
+  max-width: 1088px;
+  height: 432px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.fifth-container .fifth-title {
+  margin-bottom: 48px;
+}
+.fifth-container .fifth-title h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: #221E1F;
+}
+.fifth-container .fifth-cards ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-container .fifth-cards ul li {
+  max-width: 352px;
+  height: 304px;
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.fifth-container .fifth-cards ul li .comment-container {
+  padding: 24px 32px;
+  padding-top: 48px;
+  height: 248px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 1px 3px lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fifth-container .fifth-cards ul li .comment-container p {
+  line-height: 1.5;
+}
+.fifth-container .fifth-cards ul li .comment-container .comment-name {
+  height: 50%;
+  display: flex;
+  border-top: 1px solid lightgray;
+  justify-content: space-between;
+}
+.fifth-container .fifth-cards ul li .comment-container .comment-name .name-inf {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.fifth-container .fifth-cards ul li .comment-container .comment-name .name-inf h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #221E1F;
+  text-align: left;
+}
+.fifth-container .fifth-cards ul li .comment-container .comment-name .name-inf p {
+  font-size: 16px;
+  color: #221E1F;
+}
+.fifth-container .fifth-cards ul li .comment-container .star {
+  padding-bottom: 3.5px;
+  width: 50%;
+  color: #ffdb1a;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  vertical-align: baseline;
+  letter-spacing: 8.2px;
+  font-size: 16.85px;
+  text-shadow: yellow 0px 0.2px 0.5px;
+}
+.fifth-container .fifth-cards ul img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 36px;
 }/*# sourceMappingURL=css.css.map */

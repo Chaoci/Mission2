@@ -1,0 +1,88 @@
+.fifth-container{
+    margin: 0 auto;
+    max-width: 1088px;
+    height: 432px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    .fifth-title{
+        margin-bottom: 48px;
+        h2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 32px;
+            color:#221E1F;
+        }
+    }
+    .fifth-cards{
+        ul{ 
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                max-width: 352px;
+                height: 304px;
+                position: relative;
+                display: flex;
+                align-items: end;
+                .comment-container{
+                    padding: 24px 32px;
+                    padding-top: 48px;
+                    height: 248px;
+                    background-color: #ffffff;
+                    border-radius: 15px;
+                    box-shadow: 0px 1px 3px lightgray;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    p{
+                        line-height: 1.5;
+                    }
+                    .comment-name{
+                        height: 50%;
+                        display: flex;
+                        border-top: 1px solid lightgray;
+                        justify-content: space-between;
+                        .name-inf{
+                            padding-top: 24px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: end;
+                            h4{
+                                margin-bottom: 8px;
+                                font-size: 16px;
+                                font-weight: bold;
+                                color:#221E1F;
+                                text-align: left;
+                            }
+                            p{
+                                font-size: 16px;
+                                color: #221E1F;
+                            }
+                        }
+                    }
+                    .star{
+                        padding-bottom: 3.5px;
+                        width: 50%;
+                        color: lighten(gold,5%);
+                        display: flex;
+                        align-items: end;
+                        justify-content: end;
+                        vertical-align: baseline;
+                        letter-spacing: 8.2px;
+                        font-size: 16.85px;
+                        text-shadow: yellow 0px 0.2px 0.5px;
+                    }
+                }
+            }
+            img{
+                max-width: 80px;
+                height: 80px;
+                border-radius: 100%;
+                position: absolute;
+                top: 0px;
+                left: 36px;
+            }
+        }
+    }
+}
