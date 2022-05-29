@@ -66,6 +66,7 @@ a {
 }
 
 *, *:after, *:before {
+  outline: auto;
   font-family: "Noto Sans TC";
 }
 
@@ -497,8 +498,10 @@ a {
 
 .footer1-container {
   margin: 0 auto;
+  width: 100%;
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   height: 505px;
   display: flex;
   display: block;
