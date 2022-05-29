@@ -1,4 +1,5 @@
 .footer1-container{
+    margin: 0 auto;
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
     background-repeat: no-repeat;
     height: 505px;
@@ -6,7 +7,6 @@
     display: block;
     justify-content: center;
     padding-top: 260px;
-    margin: 0 auto;
     .footer-title{
         display: flex;
         justify-content: center;
