@@ -112,7 +112,7 @@ a {
   background: #FF5D50;
   border-radius: 22px;
 }
-.container_top .header .btn_project_rate ul a {
+.container_top .header .btn_project_rate ul li a {
   width: 100%;
   height: 100%;
   font-size: 16px;
@@ -482,4 +482,10 @@ a {
 .footer2-container p {
   font-size: 16px;
   color: #221e1f;
+}
+
+@media (max-width: 765px) {
+  .wrap {
+    width: 100%;
+  }
 }/*# sourceMappingURL=css2.css.map */

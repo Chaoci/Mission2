@@ -6,7 +6,7 @@
 @import "base";
 
 *,*:after,*:before{
-    // outline:auto;
+    outline:auto;
     font-family: "Noto Sans TC";
 }
 
@@ -28,3 +28,4 @@
 
 @import "footer2";
 
+@import "rwd";
