@@ -9,7 +9,7 @@
         }
     }
     .fourth-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         height: auto;
         .left-part{
@@ -117,12 +117,94 @@
         }
     }
     .third-container{
+        padding: 0 20px;
         ul{
             flex-direction: column;
             align-items: center;
             li{
                 margin-bottom: 24px;
             }
+        }
+    }
+    .fourth-container{
+        padding: 0 20px;
+        .left-part{
+            ul{
+                justify-content: center;
+                li{
+                    margin-bottom: 24px;
+                }
+                .fourth-cards1{
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        .right-part{ 
+            .right-part-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-size: 28px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+            .price-btn{
+                min-width: 136px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+    .fifth-container{
+        margin-top: 34px;
+        padding: 0 20px;
+        .fifth-title{
+            margin-bottom: 36px;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .fifth-cards{
+            .fifth-card2, .fifth-card3{
+                display: none;
+            }
+            ul{
+                li{
+                    .comment-container{
+                        .comment-name{
+                            .name-inf{
+                                justify-content: space-evenly;
+                                padding: 0;
+                            }
+                        }
+                        .star{
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .page-dot{
+            margin-bottom: 60px;
+        }
+    }
+    .footer1-container{
+        background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 293px;
+        .footer-title{
+            h1{
+                font-size: 24px;
+            }
+        }
+        .footer-btn{
+            margin-top: 24px;
         }
     }
 }

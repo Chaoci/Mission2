@@ -26,6 +26,7 @@
                 position: relative;
                 display: flex;
                 align-items: end;
+                z-index: -1;
                 .comment-container{
                     padding: 24px 32px;
                     padding-top: 48px;
