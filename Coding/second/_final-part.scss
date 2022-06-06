@@ -23,17 +23,31 @@
                 border-radius: 12px;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                .question{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
                 h2{
                     display: flex;
                     text-align: center;
                     font-size: 18px;
                     color: #221e1f;
                 }
+                .plus-minus{
+                    color: #56c4c5;
+                    font-weight: bold;
+                    font-size: 28px;
+                }
             }
             .qa3{
                 height: 154px;
                 flex-direction: column;
                 align-items: start;
+                justify-content: center;
                 h2{
                     margin-top: 16px;
                     color:#56c4c5;
@@ -43,10 +57,12 @@
                     line-height: 2;
                     color:#747474;
                 }
+                .plus-minus{
+                    color: #56c4c5;
+                    font-weight: bold;
+                    font-size: 28px;
+                }
             }
-        .plus{
-            
-        }
         }
     }
 }
