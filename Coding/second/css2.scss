@@ -1,5 +1,5 @@
 *{
-    // outline: auto;
+    //outline: auto;
 }
 
 @import "reset";
@@ -22,5 +22,8 @@
 
 @import "rwd2";
 
-
-
+//js改變css
+.change-btn{
+    color:#FFFFFF;
+    background: #56C4C5;
+}
